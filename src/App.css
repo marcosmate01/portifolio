@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+  background-color: #f7f6f6;
+  font-family: 'Josefin Sans', sans-serif;;
+   
+  font-weight: 700;
+}
+
+h1{
+  color: #000000;
+  font-weight: 700;
+  font-size: 48px;
+  margin-left: 40px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+  color: #000000;
+  font-weight: bold;
+}
+
+nav img{
+  width: 4%;
+  margin-left: 40px;
+  transition: 1s;
+  cursor: pointer;;
+}
+ 
+ 
+
+tr{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 54px;
+  text-decoration: none;
+  list-style:none;   
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 13px;
+  margin-right: 40px;
+  transition: 1s;
+  cursor: pointer;
+}
+ 
+
+.moon{
+  margin-left: 91%;
+  width: 40px;
+  
+}
+
+.moon button{
+  border: none;
+  font-size: 30px;
+  width: 40px;
+  background-color:#8f484800;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.moon button:hover{
+  transform: scale(1.1);
+}
+
+tr :hover{
+  transform: scale(1.1);
+  border-radius: 10px;
+  width: 100px;
+  padding: 3px;
+  color: #f7f7f6;
+  background-color: #7B48F2;
+
+}
+
+section img{    
+
+  width: 150px;
+  height: 150px;
+  margin-right: 1050px; 
+  border-radius: 50%;
+  margin-top: 30px;
+  background-color: #7B48F2;
+
+}
+
+main {
+ margin-top: 121px;
+ flex-direction: column;
+ display: flex;  
+}
+
+
+
+
+.cards{
+        
+    display:flex;
+    align-items: center;  
+    margin-left:auto;
+    margin-right:auto;
+    width: 98%;
+    height: 500px;             
+    
+    border-radius: 10px;    
+
+}
+
+.cards :hover{
+  transform: scale(1.1);
+}
+
+.cards .card{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;  
+  display: block;
+  width: 306px;
+  height: 321px;
+  background-color: #f7f6f6;
+  border-radius: 15px;
+  text-align: center;  
+  margin: auto ;
+  transition: 1s;
+}
+
+ .icons{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  gap: 10px;
+  color:#7B48F2;
+}
+
+.card h3{
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 30px ;
+}
+
+ 
+
+.jaburu {
+  color:#7B48F2;
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+  width: 40%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.text{
+   
+  height: 100px;
+}
+
+.text h2{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  width: 800px;   
+  color:#7B48F2;
+  border-radius: 10px;
+}
+
+section{
+  margin-top: 50px;
+  text-align: center;
+  
+}
+section h3{
+  font-size: 18px;
+  margin: 30px;
+  color:#7B48F2;
+  font-size: 1.6rem;
+}
+section .card{
+   
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;  
+  display: block;
+  width: 306px;
+  height: 321px;
+  background-color: #f7f6f6;;
+  border-radius: 15px;
+  text-align: center;  
+  cursor: pointer;
+
+}
+
+ 
+ 
+.card :hover{
+  transform: scale(1.2);
+}
+
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr );
+  margin-left:auto;
+  margin-right:auto;
+  width: 98%;
+  height: 900px;             
+  
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.container-cards .card{
+  transition: 1s;
+
+}
+
+.container-cards .card:hover{
+  transform: scale(1.1);
+}
+ 
+.container-cards .card img{
+  border-radius: 0;
+  width: 100%;
+  height: 150px;
+}
+
+.container-cards .card img:hover{
+  transform: scale(1);
+}
+
+.container-cards .card h3{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 30px ;
+  color: #000000;
+}
+
+footer{
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+footer h2{
+  
+   color:#7B48F2;
+}
+
+footer .icons2{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(180deg, #7D49F4 0%, #4E22BE 100%);
+  padding: 5px;
+  width: 200px;
+  color: #f7f6f6;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+}
+
+footer .remo {
+  font-size: 32px;
+  color: #f7f6f6;
+  margin: 12px;
+  padding: 5px;
+  display: flex;
+   
+}
+
+footer .remo:hover{
+  transform: scale(1.2);
+}
+
+.footer{
+  margin-top: 110px;  
+  text-align: center;  
+  margin: 50px;
+  bottom: 0;    
+}
+
+.footer img{
+  width: 30px;  
+  margin: 5px;
+}
